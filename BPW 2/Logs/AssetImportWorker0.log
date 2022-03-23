@@ -837,3 +837,4 @@ Received Import Request.
 Start importing Assets/Own Assets/BPW_Plants.fbx using Guid(1cfef0cade57fb64895ebba12c39e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7eee797f5bd7397a0bc82327977cf4') in 0.049266 seconds 
   Import took 0.056195 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
