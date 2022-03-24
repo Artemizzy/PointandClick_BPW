@@ -1,0 +1,840 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16269 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Documents/GitHub/PointandClick/BPW 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60872
+Successfully changed project path to: D:/Documents/GitHub/PointandClick/BPW 2
+D:/Documents/GitHub/PointandClick/BPW 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/GitHub/PointandClick/BPW 2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002915 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1251ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1178ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.1 MB.
+System memory in use after: 67.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 3.676300 ms (FindLiveObjects: 0.157800 ms CreateObjectMapping: 0.041100 ms MarkObjects: 3.360500 ms  DeleteObjects: 0.115600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008313 seconds 
+  Import took 0.055985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.198893 seconds.
+  path: Assets/Own Assets
+  artifactKey: Guid(f630714d80776954a885d3bf806fb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets using Guid(f630714d80776954a885d3bf806fb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66d52cc78a7237c2edd71e72493b179') in 0.010572 seconds 
+  Import took 0.014354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.414061 seconds.
+  path: Assets/Own Assets/BPW2_Chair.fbx
+  artifactKey: Guid(01e60013ee7c2fb479faafc783851d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW2_Chair.fbx using Guid(01e60013ee7c2fb479faafc783851d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c43d4341a7ef305866446cce05b050') in 0.494202 seconds 
+  Import took 0.497345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Own Assets/HandPotion2.fbx
+  artifactKey: Guid(5fcb47b288da32149ae57cd2c2784cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion2.fbx using Guid(5fcb47b288da32149ae57cd2c2784cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4175fb5775c0fa69c26066b26e5e3bba') in 0.042800 seconds 
+  Import took 0.047305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Own Assets/BPW_Books.fbx
+  artifactKey: Guid(6486ed4d981162748a89778cbf2ec3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Books.fbx using Guid(6486ed4d981162748a89778cbf2ec3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f053fd56d2fe62bf24a848e71cae63') in 0.131773 seconds 
+  Import took 0.136994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Own Assets/BPW_WitchHat.fbx
+  artifactKey: Guid(d9aeb0b8ec275654cacba13ac45c33d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_WitchHat.fbx using Guid(d9aeb0b8ec275654cacba13ac45c33d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a0b6b79da79461e7500f3652895407') in 0.047366 seconds 
+  Import took 0.051927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Own Assets/HandPotion5.fbx
+  artifactKey: Guid(8de938f1ecef63643a2555b984be557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion5.fbx using Guid(8de938f1ecef63643a2555b984be557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6af6532a0f32198f745458b28212ce') in 0.056905 seconds 
+  Import took 0.062559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Own Assets/BPW_Candles.fbx
+  artifactKey: Guid(c4c8a8ebbf1cfa64a86c7dd0d374364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Candles.fbx using Guid(c4c8a8ebbf1cfa64a86c7dd0d374364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ac625976fa4a718c00df63b5a5c6be') in 0.158447 seconds 
+  Import took 0.176075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Own Assets/BPW_Couldron.fbx
+  artifactKey: Guid(c2213845032bfe7468ecf0cbbbf36355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Couldron.fbx using Guid(c2213845032bfe7468ecf0cbbbf36355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fe6209f02b226be0bd2e54ef759ff8') in 0.090544 seconds 
+  Import took 0.094376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Own Assets/BPW2_Wall.fbx
+  artifactKey: Guid(ae7d7742a7da8de4eb5a5b6c15892857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW2_Wall.fbx using Guid(ae7d7742a7da8de4eb5a5b6c15892857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe08549aabc03657552dedff49022ad3') in 0.181047 seconds 
+  Import took 0.185418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Own Assets/BPW_Potions.fbx
+  artifactKey: Guid(bc087466376a7ab4c91990a1b8021f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Potions.fbx using Guid(bc087466376a7ab4c91990a1b8021f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17b72f63bb458f3fc1a3fa300e48932') in 0.232891 seconds 
+  Import took 0.237433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Own Assets/BPW_Spoon.fbx
+  artifactKey: Guid(a10bb65bcfb589448ad605281c4cbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Spoon.fbx using Guid(a10bb65bcfb589448ad605281c4cbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aea797c5daac47f3d3760698c80317f') in 0.023954 seconds 
+  Import took 0.041801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Own Assets/Flame.fbx
+  artifactKey: Guid(0404007ce89ac7a4c9c9268539031d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/Flame.fbx using Guid(0404007ce89ac7a4c9c9268539031d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9190170c8ec1442e15dcfe6f28c4390e') in 0.029175 seconds 
+  Import took 0.031693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Own Assets/BPW_SKabinet.fbx
+  artifactKey: Guid(03d066fdef8be254e8051269bb2a40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_SKabinet.fbx using Guid(03d066fdef8be254e8051269bb2a40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc31c6be9b607efcc5129dff9f23cff') in 0.063843 seconds 
+  Import took 0.067311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Own Assets/BPW_Broom.fbx
+  artifactKey: Guid(8ce22a3349b50c840b005cdb51561283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Broom.fbx using Guid(8ce22a3349b50c840b005cdb51561283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e5fb23b95f4331050e55bbbe601ac6') in 0.060012 seconds 
+  Import took 0.063051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Own Assets/HandPotion3.fbx
+  artifactKey: Guid(6aa4863d18714b04cb9303fcfef4ed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion3.fbx using Guid(6aa4863d18714b04cb9303fcfef4ed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2691b439f9be6dd94f9da1978641a9b') in 0.044823 seconds 
+  Import took 0.048340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Own Assets/HandPotion1.fbx
+  artifactKey: Guid(dcb1025932b97d14780301a491c27259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion1.fbx using Guid(dcb1025932b97d14780301a491c27259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaac6d877bacc56380c1f93df8ebdcd') in 0.048255 seconds 
+  Import took 0.051232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Own Assets/BPW_Fruits.fbx
+  artifactKey: Guid(63c466057872d4f4fbf65c9f560ad538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Fruits.fbx using Guid(63c466057872d4f4fbf65c9f560ad538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c420f8e870adb4ad8aa913067ffd837e') in 0.099605 seconds 
+  Import took 0.103242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Own Assets/Paper.fbx
+  artifactKey: Guid(4708e474f5baafb4a908cdb0e3a1fb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/Paper.fbx using Guid(4708e474f5baafb4a908cdb0e3a1fb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5392b592c9818c1c1b5bef75a55dec') in 0.084615 seconds 
+  Import took 0.142005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Own Assets/HandPotion.fbx
+  artifactKey: Guid(9eeab16b98a19fc4aa3d650d14d0647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion.fbx using Guid(9eeab16b98a19fc4aa3d650d14d0647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a086f2465f235750feff0ca08b12d4') in 0.047561 seconds 
+  Import took 0.050652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Own Assets/BPW_Jars.fbx
+  artifactKey: Guid(5f99e636f8afdf843bce321f2052bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Jars.fbx using Guid(5f99e636f8afdf843bce321f2052bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0129130f897c309284a7745549388e8') in 0.161547 seconds 
+  Import took 0.165327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Own Assets/BPW_WitchBolb.fbx
+  artifactKey: Guid(e6dc59b775e5a8b498902c58d0b93b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_WitchBolb.fbx using Guid(e6dc59b775e5a8b498902c58d0b93b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd761a9831fcd4a973a200b1a462d90') in 0.172977 seconds 
+  Import took 0.175813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Own Assets/BPW_BKabinet.fbx
+  artifactKey: Guid(f906ee9480923a3469b420e312d2f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_BKabinet.fbx using Guid(f906ee9480923a3469b420e312d2f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e207252f0d0a040a1913a8ceee9dc4d') in 0.088934 seconds 
+  Import took 0.091268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Own Assets/BPW_PlantPots.fbx
+  artifactKey: Guid(3ba376b3a8f680d4f8643c1416da9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_PlantPots.fbx using Guid(3ba376b3a8f680d4f8643c1416da9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7a7cc7480039d321451751b3dd882f') in 0.103771 seconds 
+  Import took 0.106959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Own Assets/BPW_Table.fbx
+  artifactKey: Guid(89accc68f94c7c246b65666cb940aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Table.fbx using Guid(89accc68f94c7c246b65666cb940aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8493d78516911b39f21a49530a347c53') in 0.039832 seconds 
+  Import took 0.043192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Own Assets/HandPotion4.fbx
+  artifactKey: Guid(447da0470909cd14ba138d1302afa950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion4.fbx using Guid(447da0470909cd14ba138d1302afa950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a657a74efbc13c19d1b1acc49d81c83a') in 0.039965 seconds 
+  Import took 0.042728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Own Assets/BPW_Skull.fbx
+  artifactKey: Guid(6e6bf714b247a4b4d852d9e6a712be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Skull.fbx using Guid(6e6bf714b247a4b4d852d9e6a712be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac740e712202d8fafa7a755bc9a297b1') in 0.020273 seconds 
+  Import took 0.022744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Own Assets/BPW_Room.fbx
+  artifactKey: Guid(610fc82394f063947838465fa77e6477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Room.fbx using Guid(610fc82394f063947838465fa77e6477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b86b39b69cda2c667e7146c43e715bf') in 0.188041 seconds 
+  Import took 0.190899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Own Assets/BWP_Door.fbx
+  artifactKey: Guid(914fd3dc8b0f047428228d6dc1c6cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BWP_Door.fbx using Guid(914fd3dc8b0f047428228d6dc1c6cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950d98893ecd8b95c22b555198b03494') in 0.028268 seconds 
+  Import took 0.030746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Own Assets/BWP_Shelves.fbx
+  artifactKey: Guid(885813b9ee04af548ad410a01575f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BWP_Shelves.fbx using Guid(885813b9ee04af548ad410a01575f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74059f799a213a8ce39a11ccea1bc4c1') in 0.067452 seconds 
+  Import took 0.069955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Own Assets/BPW_Kabinet.fbx
+  artifactKey: Guid(df97a7066b730c5469fc5ea40fe1a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Kabinet.fbx using Guid(df97a7066b730c5469fc5ea40fe1a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d62e754c48470fd6ed798d641195e7') in 0.055218 seconds 
+  Import took 0.057830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Own Assets/Rats.fbx
+  artifactKey: Guid(04ddeaa21da97784f948193b142824ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/Rats.fbx using Guid(04ddeaa21da97784f948193b142824ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057b949b4d365d7bb6ff40e44fc33ed9') in 0.037956 seconds 
+  Import took 0.040255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Own Assets/Coals.fbx
+  artifactKey: Guid(0c52a41664484dc469c4a986d7220a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/Coals.fbx using Guid(0c52a41664484dc469c4a986d7220a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563cdf1853a7791d40066d53655cc9e1') in 0.026692 seconds 
+  Import took 0.029180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Own Assets/BPW_Plants.fbx
+  artifactKey: Guid(1cfef0cade57fb64895ebba12c39e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Plants.fbx using Guid(1cfef0cade57fb64895ebba12c39e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d0b547127d6142887a251d780c377a') in 0.033443 seconds 
+  Import took 0.036183 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (983ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2281 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2757.
+Total: 3.901000 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.110300 ms MarkObjects: 3.308500 ms  DeleteObjects: 0.182700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003657 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1209ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1015ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.9 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 3.887100 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.142400 ms MarkObjects: 3.248700 ms  DeleteObjects: 0.241000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008354 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.621 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2622ms)
+		BeginReloadAssembly (556ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (158ms)
+		EndReloadAssembly (1835ms)
+			LoadAssemblies (443ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1116ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.4 MB.
+System memory in use after: 133.0 MB.
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 3686.
+Total: 6.379100 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.161700 ms MarkObjects: 3.658500 ms  DeleteObjects: 2.253000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 192.858700 seconds.
+  path: Assets/Own Assets/BPW2_Chair.fbx
+  artifactKey: Guid(01e60013ee7c2fb479faafc783851d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW2_Chair.fbx using Guid(01e60013ee7c2fb479faafc783851d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d1e133b20ba647ff068087acb9751c') in 0.184916 seconds 
+  Import took 0.191741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Own Assets/HandPotion2.fbx
+  artifactKey: Guid(5fcb47b288da32149ae57cd2c2784cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion2.fbx using Guid(5fcb47b288da32149ae57cd2c2784cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52285e3d0f6621bc65ddecda281682ec') in 0.061488 seconds 
+  Import took 0.066813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Own Assets/BPW_Books.fbx
+  artifactKey: Guid(6486ed4d981162748a89778cbf2ec3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Books.fbx using Guid(6486ed4d981162748a89778cbf2ec3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6526eaa3cd58465770499c62480db7') in 0.149630 seconds 
+  Import took 0.155969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000819 seconds.
+  path: Assets/Own Assets/BPW_WitchHat.fbx
+  artifactKey: Guid(d9aeb0b8ec275654cacba13ac45c33d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_WitchHat.fbx using Guid(d9aeb0b8ec275654cacba13ac45c33d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cdd1173aa9c8e881f6f49ac0c1f129') in 0.036273 seconds 
+  Import took 0.041922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Own Assets/HandPotion5.fbx
+  artifactKey: Guid(8de938f1ecef63643a2555b984be557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion5.fbx using Guid(8de938f1ecef63643a2555b984be557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba45b70b54286ecb4ec7bfbf514ae10') in 0.054925 seconds 
+  Import took 0.060112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Own Assets/BPW_Candles.fbx
+  artifactKey: Guid(c4c8a8ebbf1cfa64a86c7dd0d374364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Candles.fbx using Guid(c4c8a8ebbf1cfa64a86c7dd0d374364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a7d322a53daad6f5aafe6713b6d292') in 0.167830 seconds 
+  Import took 0.173286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Own Assets/BPW_Couldron.fbx
+  artifactKey: Guid(c2213845032bfe7468ecf0cbbbf36355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Couldron.fbx using Guid(c2213845032bfe7468ecf0cbbbf36355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11153d91b2e2f72a369aeb54bd67c53') in 0.087091 seconds 
+  Import took 0.093903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Own Assets/BPW2_Wall.fbx
+  artifactKey: Guid(ae7d7742a7da8de4eb5a5b6c15892857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW2_Wall.fbx using Guid(ae7d7742a7da8de4eb5a5b6c15892857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c660336804e79e9c0a1741063e9c79b5') in 0.120949 seconds 
+  Import took 0.127942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Own Assets/BPW_Potions.fbx
+  artifactKey: Guid(bc087466376a7ab4c91990a1b8021f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Potions.fbx using Guid(bc087466376a7ab4c91990a1b8021f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2294a4fc726960a2e3b0f38e35de7d') in 0.239255 seconds 
+  Import took 0.244742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Own Assets/BPW_Spoon.fbx
+  artifactKey: Guid(a10bb65bcfb589448ad605281c4cbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Spoon.fbx using Guid(a10bb65bcfb589448ad605281c4cbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa0b920f0d55700a78a358757dffb29') in 0.030497 seconds 
+  Import took 0.039166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Own Assets/Flame.fbx
+  artifactKey: Guid(0404007ce89ac7a4c9c9268539031d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/Flame.fbx using Guid(0404007ce89ac7a4c9c9268539031d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31964e5a2f1f693f9cd8e722ceacf677') in 0.031851 seconds 
+  Import took 0.039234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Own Assets/BPW_SKabinet.fbx
+  artifactKey: Guid(03d066fdef8be254e8051269bb2a40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_SKabinet.fbx using Guid(03d066fdef8be254e8051269bb2a40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c645e9a92667e530161e9fdd4afde3a5') in 0.074932 seconds 
+  Import took 0.080531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Own Assets/BPW_Broom.fbx
+  artifactKey: Guid(8ce22a3349b50c840b005cdb51561283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Broom.fbx using Guid(8ce22a3349b50c840b005cdb51561283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b51c1d563f3b8056d1bf45822e17d7') in 0.066958 seconds 
+  Import took 0.072008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Own Assets/HandPotion3.fbx
+  artifactKey: Guid(6aa4863d18714b04cb9303fcfef4ed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion3.fbx using Guid(6aa4863d18714b04cb9303fcfef4ed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938e856a40c278cfdf6a1016eb76a059') in 0.053952 seconds 
+  Import took 0.059509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Own Assets/HandPotion1.fbx
+  artifactKey: Guid(dcb1025932b97d14780301a491c27259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion1.fbx using Guid(dcb1025932b97d14780301a491c27259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd5b26ad3d33e2d5cc907430be331cc') in 0.055455 seconds 
+  Import took 0.061661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Own Assets/BPW_Fruits.fbx
+  artifactKey: Guid(63c466057872d4f4fbf65c9f560ad538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Fruits.fbx using Guid(63c466057872d4f4fbf65c9f560ad538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47f48494354eb3395b58803ecfa0e35') in 0.125836 seconds 
+  Import took 0.132165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Own Assets/Paper.fbx
+  artifactKey: Guid(4708e474f5baafb4a908cdb0e3a1fb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/Paper.fbx using Guid(4708e474f5baafb4a908cdb0e3a1fb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108115cac02c2d899d070bba894d5f51') in 0.101126 seconds 
+  Import took 0.106170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Own Assets/HandPotion.fbx
+  artifactKey: Guid(9eeab16b98a19fc4aa3d650d14d0647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion.fbx using Guid(9eeab16b98a19fc4aa3d650d14d0647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c761ab1310d71321f76e5b70d2e2d402') in 0.056600 seconds 
+  Import took 0.062686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Own Assets/BPW_Jars.fbx
+  artifactKey: Guid(5f99e636f8afdf843bce321f2052bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Jars.fbx using Guid(5f99e636f8afdf843bce321f2052bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b48b3b03b778a1592d7231865911825') in 0.179091 seconds 
+  Import took 0.187213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Own Assets/BPW_WitchBolb.fbx
+  artifactKey: Guid(e6dc59b775e5a8b498902c58d0b93b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_WitchBolb.fbx using Guid(e6dc59b775e5a8b498902c58d0b93b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c76131e918e75cff453ce0dd4b2ca61') in 0.079716 seconds 
+  Import took 0.085027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Own Assets/BPW_BKabinet.fbx
+  artifactKey: Guid(f906ee9480923a3469b420e312d2f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_BKabinet.fbx using Guid(f906ee9480923a3469b420e312d2f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abbe6103c2dbbc5022e8b7f6cf96b4b') in 0.096222 seconds 
+  Import took 0.101693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Own Assets/BPW_PlantPots.fbx
+  artifactKey: Guid(3ba376b3a8f680d4f8643c1416da9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_PlantPots.fbx using Guid(3ba376b3a8f680d4f8643c1416da9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e91aea766856a130fd462afecf6432') in 0.127951 seconds 
+  Import took 0.133384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Own Assets/BPW_Table.fbx
+  artifactKey: Guid(89accc68f94c7c246b65666cb940aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Table.fbx using Guid(89accc68f94c7c246b65666cb940aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebe70f4c59e0ab5bc0e9056beebdd34') in 0.054819 seconds 
+  Import took 0.061758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Own Assets/HandPotion4.fbx
+  artifactKey: Guid(447da0470909cd14ba138d1302afa950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/HandPotion4.fbx using Guid(447da0470909cd14ba138d1302afa950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3429632780ce58fe83712aa098c1f0ee') in 0.054964 seconds 
+  Import took 0.061075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Own Assets/BPW_Skull.fbx
+  artifactKey: Guid(6e6bf714b247a4b4d852d9e6a712be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Skull.fbx using Guid(6e6bf714b247a4b4d852d9e6a712be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b788d5a606aea15d3120c1f6a0a502') in 0.035278 seconds 
+  Import took 0.040658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Own Assets/BPW_Room.fbx
+  artifactKey: Guid(610fc82394f063947838465fa77e6477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Room.fbx using Guid(610fc82394f063947838465fa77e6477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b175edbba457eadd26b7f48439693a') in 0.236652 seconds 
+  Import took 0.243930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Own Assets/BWP_Door.fbx
+  artifactKey: Guid(914fd3dc8b0f047428228d6dc1c6cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BWP_Door.fbx using Guid(914fd3dc8b0f047428228d6dc1c6cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc6fd2d1fa7bd52d357c4a323d4b61c') in 0.042003 seconds 
+  Import took 0.050845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Own Assets/BWP_Shelves.fbx
+  artifactKey: Guid(885813b9ee04af548ad410a01575f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BWP_Shelves.fbx using Guid(885813b9ee04af548ad410a01575f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba425c6b456bb40f2658d49ece9dc55a') in 0.095252 seconds 
+  Import took 0.102290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Own Assets/BPW_Kabinet.fbx
+  artifactKey: Guid(df97a7066b730c5469fc5ea40fe1a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Kabinet.fbx using Guid(df97a7066b730c5469fc5ea40fe1a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d33eb6fe3ad3b2063a89c3b8906585') in 0.081966 seconds 
+  Import took 0.089025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Own Assets/Rats.fbx
+  artifactKey: Guid(04ddeaa21da97784f948193b142824ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/Rats.fbx using Guid(04ddeaa21da97784f948193b142824ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6685f3f582952e90dba4cb53d81fe5a') in 0.055540 seconds 
+  Import took 0.063167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Own Assets/Coals.fbx
+  artifactKey: Guid(0c52a41664484dc469c4a986d7220a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/Coals.fbx using Guid(0c52a41664484dc469c4a986d7220a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2403dedbbeaf2625be4051193be9bf') in 0.033053 seconds 
+  Import took 0.041568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Own Assets/BPW_Plants.fbx
+  artifactKey: Guid(1cfef0cade57fb64895ebba12c39e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW_Plants.fbx using Guid(1cfef0cade57fb64895ebba12c39e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7eee797f5bd7397a0bc82327977cf4') in 0.049266 seconds 
+  Import took 0.056195 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
