@@ -258,3 +258,4 @@ Received Import Request.
 Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6c17504c648190fa9e8ea7509932b3') in 0.100665 seconds 
   Import took 0.115583 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
