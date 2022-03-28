@@ -15,11 +15,11 @@ D:/Documenten/GitHub/PointandClick_BPW/BPW 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56333
+57251
 Successfully changed project path to: D:/Documenten/GitHub/PointandClick_BPW/BPW 2
 D:/Documenten/GitHub/PointandClick_BPW/BPW 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path D:/Pogramma's/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'D:/Pogramma's/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Pogramma's/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Pogramma's/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Pogramma's/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002342 seconds.
+Registered in 0.001116 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
+- Completed reload, in  0.722 seconds
 Domain Reload Profiling:
-	ReloadAssembly (778ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (611ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (580ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
+			RebuildScriptCaches (41ms)
 			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002942 seconds.
+Registered in 0.004504 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 80.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.469 seconds
+- Completed reload, in  1.493 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1470ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (1494ms)
+		BeginReloadAssembly (195ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1216ms)
-			LoadAssemblies (117ms)
+		EndReloadAssembly (1230ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (432ms)
+			SetupTypeCache (435ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (440ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (422ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 140.0 MB.
 System memory in use after: 140.2 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3722.
-Total: 15.675500 ms (FindLiveObjects: 0.388200 ms CreateObjectMapping: 0.586700 ms MarkObjects: 14.592200 ms  DeleteObjects: 0.107000 ms)
+Total: 3.074900 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.172300 ms MarkObjects: 2.570500 ms  DeleteObjects: 0.087400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,199 +131,295 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Own Assets
-  artifactKey: Guid(f630714d80776954a885d3bf806fb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets using Guid(f630714d80776954a885d3bf806fb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75cb9abd884797121c9d03940455cb4') in 0.014072 seconds 
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747838f65b1ac1af7dcb23380b8ac163') in 0.010076 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Own Assets/BPW_Books.fbx
-  artifactKey: Guid(6486ed4d981162748a89778cbf2ec3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Books.fbx using Guid(6486ed4d981162748a89778cbf2ec3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad14e8907e4361cfca8fc86bece353cb') in 1.033690 seconds 
+  Time since last request: 404.452761 seconds.
+  path: Assets/Own Assets/BPW2_BackgroundHomes.fbx
+  artifactKey: Guid(09eddd530762f854fae8363a0087b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW2_BackgroundHomes.fbx using Guid(09eddd530762f854fae8363a0087b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79959dc97af8e2fba76611f8f8770b20') in 0.437982 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Own Assets/BPW_WitchHat.fbx
-  artifactKey: Guid(d9aeb0b8ec275654cacba13ac45c33d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_WitchHat.fbx using Guid(d9aeb0b8ec275654cacba13ac45c33d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f30a72f74958e91026e148f8e576a9') in 0.029529 seconds 
+  Time since last request: 0.000270 seconds.
+  path: Assets/Own Assets/BPW2_Clock.fbx
+  artifactKey: Guid(40eda7e4ab22a6d4385769bd8bf2efc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW2_Clock.fbx using Guid(40eda7e4ab22a6d4385769bd8bf2efc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fabad87bbbccb76ddf1b8cbd11f2275') in 0.071370 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Own Assets/HandPotion5.fbx
-  artifactKey: Guid(8de938f1ecef63643a2555b984be557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/HandPotion5.fbx using Guid(8de938f1ecef63643a2555b984be557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a241fe15892825c7ee80d0f965b0a19') in 0.043830 seconds 
+  Time since last request: 0.000246 seconds.
+  path: Assets/Own Assets/BPW2_Calander.fbx
+  artifactKey: Guid(55a3069b684096f44aa50205f310b3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Own Assets/BPW2_Calander.fbx using Guid(55a3069b684096f44aa50205f310b3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b663cb49f1b33e9a82202e8dbde55d') in 0.096343 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Own Assets/BPW_Candles.fbx
-  artifactKey: Guid(c4c8a8ebbf1cfa64a86c7dd0d374364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Candles.fbx using Guid(c4c8a8ebbf1cfa64a86c7dd0d374364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f111cb82e9038fd8aeb239e601cb53') in 0.145698 seconds 
+  Time since last request: 163.185152 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0af3bb5f5a4e785b3d690207560673') in 0.074835 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1151ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 137.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3768.
+Total: 3.698800 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.218000 ms MarkObjects: 3.188600 ms  DeleteObjects: 0.028200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Own Assets/HandPotion2.fbx
-  artifactKey: Guid(5fcb47b288da32149ae57cd2c2784cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/HandPotion2.fbx using Guid(5fcb47b288da32149ae57cd2c2784cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca68aed66ffe1841c9076f14a134d84') in 0.046926 seconds 
+  Time since last request: 208.849223 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da36e069f40402f9db36e6f9f9dafaa') in 0.178420 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Own Assets/BPW_Couldron.fbx
-  artifactKey: Guid(c2213845032bfe7468ecf0cbbbf36355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Couldron.fbx using Guid(c2213845032bfe7468ecf0cbbbf36355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488aeb4f9c4c431294c327249a9a5ccd') in 0.069526 seconds 
+  Time since last request: 18.766801 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16aa75c7d883fc6f9fd02afea997c14') in 0.075807 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Own Assets/BPW2_Wall.fbx
-  artifactKey: Guid(ae7d7742a7da8de4eb5a5b6c15892857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW2_Wall.fbx using Guid(ae7d7742a7da8de4eb5a5b6c15892857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c0cb910548ce8f1117c769ac5fe3fe') in 0.098605 seconds 
+  Time since last request: 22.322184 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15516bad7d1196585d690075a44f7412') in 0.079707 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Own Assets/BPW_Potions.fbx
-  artifactKey: Guid(bc087466376a7ab4c91990a1b8021f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Potions.fbx using Guid(bc087466376a7ab4c91990a1b8021f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f39d6582d0d374c8680f90cadb4f4bd') in 0.221827 seconds 
+  Time since last request: 328.622149 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f4bcc5f983807b8f53b37ffb24493e') in 0.080368 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Own Assets/BPW_Spoon.fbx
-  artifactKey: Guid(a10bb65bcfb589448ad605281c4cbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Spoon.fbx using Guid(a10bb65bcfb589448ad605281c4cbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ac8e8dcc55b1431fd3297dd5b487e4') in 0.022752 seconds 
+  Time since last request: 29.105229 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0ccad1f699abd7e5f5803bd54625d5') in 0.069087 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Own Assets/Flame.fbx
-  artifactKey: Guid(0404007ce89ac7a4c9c9268539031d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/Flame.fbx using Guid(0404007ce89ac7a4c9c9268539031d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75882f9983b36285eef492af6aca639') in 0.023492 seconds 
+  Time since last request: 77.545810 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab900beb58aab4586e83f7e8772b81f') in 0.066959 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Own Assets/BPW_SKabinet.fbx
-  artifactKey: Guid(03d066fdef8be254e8051269bb2a40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_SKabinet.fbx using Guid(03d066fdef8be254e8051269bb2a40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3137ae983094bb2bb89f35efeb6362') in 0.062477 seconds 
+  Time since last request: 25.935021 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf4a11f5adc27c5e6af21ee76ca779c') in 0.070060 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Own Assets/BPW_Broom.fbx
-  artifactKey: Guid(8ce22a3349b50c840b005cdb51561283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Broom.fbx using Guid(8ce22a3349b50c840b005cdb51561283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c972b8ebe9d39b57d2ba4d17f90a84') in 0.064754 seconds 
+  Time since last request: 468.459018 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb4555acaf98b9daf7cf71d1b6754eb') in 0.066237 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Own Assets/HandPotion3.fbx
-  artifactKey: Guid(6aa4863d18714b04cb9303fcfef4ed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/HandPotion3.fbx using Guid(6aa4863d18714b04cb9303fcfef4ed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87031b3d11a8bb59dca58e754687c611') in 0.044289 seconds 
+  Time since last request: 16.872146 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d2b02235c452583133f171550f4256') in 0.064952 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Own Assets/HandPotion1.fbx
-  artifactKey: Guid(dcb1025932b97d14780301a491c27259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/HandPotion1.fbx using Guid(dcb1025932b97d14780301a491c27259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e96cbce367b9b73936d98527845eb61') in 0.048245 seconds 
+  Time since last request: 41.184345 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe43c5a1810994bbe785b79265b57758') in 0.065412 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Own Assets/BPW2_Chair.fbx
-  artifactKey: Guid(01e60013ee7c2fb479faafc783851d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW2_Chair.fbx using Guid(01e60013ee7c2fb479faafc783851d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2cd06ab4b445fa2abb6ce312ddef1d') in 0.061622 seconds 
+  Time since last request: 224.332335 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06df339bd9704447cacae441d6491957') in 0.077666 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Own Assets/BPW_Fruits.fbx
-  artifactKey: Guid(63c466057872d4f4fbf65c9f560ad538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Fruits.fbx using Guid(63c466057872d4f4fbf65c9f560ad538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d81d58a3cf0f237ea1da9e0d9829d2') in 0.098552 seconds 
+  Time since last request: 23.120393 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312dd75764a1deb5e27f7a7f5e6d7b1d') in 0.067634 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Own Assets/HandPotion.fbx
-  artifactKey: Guid(9eeab16b98a19fc4aa3d650d14d0647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/HandPotion.fbx using Guid(9eeab16b98a19fc4aa3d650d14d0647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75aab7948f525decb0bd9bf554143740') in 0.045513 seconds 
+  Time since last request: 15.499716 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68721edf6514e32cb4fb6ec11472c264') in 0.064930 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Own Assets/BPW_Jars.fbx
-  artifactKey: Guid(5f99e636f8afdf843bce321f2052bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Jars.fbx using Guid(5f99e636f8afdf843bce321f2052bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5ef2dc35f674d508aa7755054cbb67') in 0.150352 seconds 
+  Time since last request: 7.504828 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5ba605ad879fb54b6f3c51bf390a66') in 0.070973 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.385 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1386ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1184ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.4 MB.
+System memory in use after: 137.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3772.
+Total: 4.392100 ms (FindLiveObjects: 0.318500 ms CreateObjectMapping: 0.218600 ms MarkObjects: 3.738400 ms  DeleteObjects: 0.115300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Own Assets/Paper.fbx
-  artifactKey: Guid(4708e474f5baafb4a908cdb0e3a1fb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/Paper.fbx using Guid(4708e474f5baafb4a908cdb0e3a1fb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920bd12a08dcb8c07ece9f38cfd08849') in 0.092944 seconds 
+  Time since last request: 109.363127 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ee999abd8d199959e2593fc7eb1344') in 0.176259 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/Own Assets/BPW_WitchBolb.fbx
-  artifactKey: Guid(e6dc59b775e5a8b498902c58d0b93b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_WitchBolb.fbx using Guid(e6dc59b775e5a8b498902c58d0b93b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da64b242de0b32125a5fd87d6776e607') in 0.205028 seconds 
+  Time since last request: 95.270348 seconds.
+  path: Assets/Magic Book/BPW2_MagicBook.blend
+  artifactKey: Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Book/BPW2_MagicBook.blend using Guid(c2397124b2953434b8269f2266f895d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2e534bbb3fca7ccefc648f613f9b6d') in 0.065188 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Own Assets/BPW_BKabinet.fbx
-  artifactKey: Guid(f906ee9480923a3469b420e312d2f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_BKabinet.fbx using Guid(f906ee9480923a3469b420e312d2f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f8d1b4da9ecd61fec1f238786b1657') in 0.075864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Own Assets/BPW_PlantPots.fbx
-  artifactKey: Guid(3ba376b3a8f680d4f8643c1416da9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_PlantPots.fbx using Guid(3ba376b3a8f680d4f8643c1416da9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfa01cf45d568079e97897c0a69f7b4') in 0.099794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Own Assets/BPW_Table.fbx
-  artifactKey: Guid(89accc68f94c7c246b65666cb940aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Table.fbx using Guid(89accc68f94c7c246b65666cb940aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43e7083f2f100669840445f70a854a0') in 0.045338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Own Assets/HandPotion4.fbx
-  artifactKey: Guid(447da0470909cd14ba138d1302afa950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/HandPotion4.fbx using Guid(447da0470909cd14ba138d1302afa950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d439f662650577271c9f19b0a4408f9') in 0.053039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Own Assets/BPW_Skull.fbx
-  artifactKey: Guid(6e6bf714b247a4b4d852d9e6a712be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Skull.fbx using Guid(6e6bf714b247a4b4d852d9e6a712be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473184dfa3b2117d60918c20b31a7b0a') in 0.027822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Own Assets/BPW_Room.fbx
-  artifactKey: Guid(610fc82394f063947838465fa77e6477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Room.fbx using Guid(610fc82394f063947838465fa77e6477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c23b83df968b0941809a7339816682') in 0.210801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Own Assets/BWP_Door.fbx
-  artifactKey: Guid(914fd3dc8b0f047428228d6dc1c6cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BWP_Door.fbx using Guid(914fd3dc8b0f047428228d6dc1c6cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53fb091d8a81b2622cd06dc78d13a05') in 0.029395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Own Assets/BWP_Shelves.fbx
-  artifactKey: Guid(885813b9ee04af548ad410a01575f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BWP_Shelves.fbx using Guid(885813b9ee04af548ad410a01575f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732d20d91d08feecb7c1fdee43305a87') in 0.071721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Own Assets/BPW_Kabinet.fbx
-  artifactKey: Guid(df97a7066b730c5469fc5ea40fe1a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Kabinet.fbx using Guid(df97a7066b730c5469fc5ea40fe1a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16d4298fcfcdeff3c4517726cfe53df') in 0.078816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Own Assets/Rats.fbx
-  artifactKey: Guid(04ddeaa21da97784f948193b142824ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/Rats.fbx using Guid(04ddeaa21da97784f948193b142824ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5af10cb67fb4d07daf1b42b68554b0a') in 0.043944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Own Assets/Coals.fbx
-  artifactKey: Guid(0c52a41664484dc469c4a986d7220a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/Coals.fbx using Guid(0c52a41664484dc469c4a986d7220a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd1291397e00e2a74a80974ff3ae270') in 0.024037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Own Assets/BPW_Plants.fbx
-  artifactKey: Guid(1cfef0cade57fb64895ebba12c39e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Own Assets/BPW_Plants.fbx using Guid(1cfef0cade57fb64895ebba12c39e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4e19a9d71771d1c17401cd246d0711') in 0.038293 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003555 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1324ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1128ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.4 MB.
+System memory in use after: 137.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3776.
+Total: 4.433700 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.239500 ms MarkObjects: 3.833200 ms  DeleteObjects: 0.058400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
