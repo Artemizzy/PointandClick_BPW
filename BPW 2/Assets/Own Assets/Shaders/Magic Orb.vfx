@@ -81,6 +81,9 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614871}
       id: 0
       isStickyNote: 0
+    - model: {fileID: 8926484042661615075}
+      id: 0
+      isStickyNote: 0
   - title: Beam
     position:
       serializedVersion: 2
@@ -3228,7 +3231,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
   m_Direction: 0
   m_LinkedSlots:
-  - {fileID: 8926484042661614815}
+  - {fileID: 8926484042661615076}
 --- !u!114 &8926484042661614811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3367,10 +3370,8 @@ MonoBehaviour:
   m_Tooltip: 
   m_Nodes:
   - m_Id: 0
-    linkedSlots:
-    - outputSlot: {fileID: 8926484042661614815}
-      inputSlot: {fileID: 8926484042661614810}
-    position: {x: -765, y: -260}
+    linkedSlots: []
+    position: {x: -815.5, y: -235.5}
     expandedSlots: []
     expanded: 0
   - m_Id: 1
@@ -3425,7 +3426,6 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
   m_Direction: 1
   m_LinkedSlots:
-  - {fileID: 8926484042661614810}
   - {fileID: 8926484042661614914}
   - {fileID: 8926484042661614988}
 --- !u!114 &8926484042661614816
@@ -11688,7 +11688,14 @@ MonoBehaviour:
   m_EnumValues: []
   m_ValueFilter: 0
   m_Tooltip: 
-  m_Nodes: []
+  m_Nodes:
+  - m_Id: 0
+    linkedSlots:
+    - outputSlot: {fileID: 8926484042661615076}
+      inputSlot: {fileID: 8926484042661614810}
+    position: {x: -901, y: -313}
+    expandedSlots: []
+    expanded: 0
 --- !u!114 &8926484042661615076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11726,7 +11733,8 @@ MonoBehaviour:
       m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   m_Direction: 1
-  m_LinkedSlots: []
+  m_LinkedSlots:
+  - {fileID: 8926484042661614810}
 --- !u!114 &8926484042661615077
 MonoBehaviour:
   m_ObjectHideFlags: 0
